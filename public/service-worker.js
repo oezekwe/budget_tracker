@@ -1,5 +1,3 @@
-// Uncomment the lines below to set up the cache files
-
 const CACHE_NAME = 'my-site-cache-v1';
 const DATA_CACHE_NAME = 'data-cache-v1';
 
@@ -8,7 +6,7 @@ const FILES_TO_CACHE = [
   '/index.html',
   '/favicon.ico',
   '/manifest.json',
-  '/assets/css/style.css',
+  '/css/style.css',
   '/icons/icon-72x72.png',
   '/icons/icon-96x96.png',
   '/icons/icon-128x128.png',
