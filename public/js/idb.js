@@ -4,7 +4,7 @@ const request= indexedDB.open("budget", 1);
 
 request.onupgradeneeded= function(event){
   const db= event.target.result;
-  db.createObjectStore('newBudget');
+  db.createObjectStore('newBudget', { autoIncrement: true });
 };
 
 request.onsuccess= function(event){
